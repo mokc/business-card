@@ -1,7 +1,30 @@
 # Getting Started
-Install the dependencies and run the project
+
+## Setup Instructions
+
+### 1. Install Dependencies
 ```
 npm install
+```
+
+### 2. Add Your Avatar Image
+The project requires an avatar image to display on your business card.
+
+**How to create a new folder (if needed):**
+- The `images` folder already exists in the project
+- If you ever need to create additional folders, you can:
+  - **Via File Explorer/Finder:** Right-click in your project directory and select "New Folder"
+  - **Via Terminal/Command Line:** Run `mkdir foldername` (replace `foldername` with your desired folder name)
+
+**Add your image:**
+1. Place your avatar image in the `images` folder
+2. The default image name is `cheryl.jpeg` (as referenced in `index.html`)
+3. Either:
+   - Name your image `cheryl.jpeg`, or
+   - Update the `src` attribute in `index.html` to match your image filename
+
+### 3. Run the Project
+```
 npm start
 ```
 
